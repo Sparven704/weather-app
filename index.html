@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather app</title>
+    <script
+      src="https://kit.fontawesome.com/3959781eaf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="weather-card">
+      <div class="column-1">
+        <div class="weather-details">
+          <h4 class="day"></h4>
+          <h5 class="date"></h5>
+          <span class="location">
+            <i class="fa-solid fa-location-dot"></i>
+            Larnaca</span
+          >
+          <div class="temp">
+            <img class="current-day-icon" src="" alt="weather icon" />
+            <h1></h1>
+            <span class="weather-icon"></span>
+          </div>
+        </div>
+      </div>
+      <div class="column-2">
+        <h5>Feels like: <span class="feels-like"></span></h5>
+        <h5>Humidity <span class="humidity"></span></h5>
+        <h5>Wind <span class="wind"></span></h5>
+        <div class="forecasts">
+          <button>
+            <img class="forecast-one-icon" src="" alt="weather icon" />
+            <span class="forecast-one"></span>
+            <h1 class="forecast-temp-one"></h1>
+          </button>
+          <button>
+            <img class="forecast-two-icon" src="" alt="weather icon" />
+            <span class="forecast-two"></span>
+            <h1 class="forecast-temp-two"></h1>
+          </button>
+          <button>
+            <img class="forecast-three-icon" src="" alt="weather icon" />
+            <span class="forecast-three"></span>
+            <h1 class="forecast-temp-three"></h1>
+          </button>
+          <button>
+            <img class="forecast-four-icon" src="" alt="weather icon" />
+            <span class="forecast-four"></span>
+            <h1 class="forecast-temp-four"></h1>
+          </button>
+        </div>
+        <a href="#" class="location-btn">
+          <i class="fa-solid fa-location-dot"></i>Change Location
+        </a>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
